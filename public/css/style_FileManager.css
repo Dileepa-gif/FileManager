@@ -1,0 +1,240 @@
+#contentOfFileManager,#file_submission_edit,#file_submssion_list,#file_edit,#file_submiison_create,#folder_edit{
+  background-image: linear-gradient(to bottom,  #ffffff , 	 #cbe8f3);
+}
+
+#GalleryTopic .topic {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Sofia", sans-serif;
+}
+
+/******form -start*******/
+#FilesForm,#FileForm,#FileEditForm, #FolderEditForm, #FileSubmissionForm, #FileSubmissionEditForm, #GivenoDatesFiles,#GivenTwoDatesFiles,#NewsForm ,#NewsEditForm label{
+  color: #252425;
+  /*font-weight: bold;
+  font-size: 16px;*/
+}
+#FilesForm,#FileForm,#FileEditForm, #FolderEditForm, #FileSubmissionForm, #FileSubmissionEditForm, #GivenoDatesFiles,#GivenTwoDatesFiles,#NewsForm ,#NewsEditForm input{
+  background-image:#c6c6c6;
+}
+/******form -end*******/
+
+/****side bar - start****/
+#sidebar_archive a {
+  
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+ }
+ #sidebar_archive a:hover,#sidebar_archive a:focus {
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+
+
+#sidebar_archive {
+  min-width: 250px;
+  max-width: 250px;
+  background: #08494c;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative; }
+
+  #sidebar_archive .h6 {
+    color: #fff; }
+  #sidebar_archive.active {
+    margin-left: -250px; }
+    #sidebar_archive.active .custom-menu {
+      margin-right: -50px; }
+  #sidebar_archive h1 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px; }
+    #sidebar_archive h1 .logo {
+      color: #fff;
+      display: block;
+      padding: 10px 30px;
+      background: #0feccb; }
+  #sidebar_archive ul.components {
+    margin-left: 5px;
+    padding: 0; }
+  #sidebar_archive ul li {
+    list-style-type: none;
+    font-size: 16px; }
+    #sidebar_archive ul li > ul {
+      background: #08494c;
+      margin-left: 20px; }
+      #sidebar_archive ul li > ul li {
+        padding-left:5px;
+        font-size: 14px; }
+    #sidebar_archive ul li a {
+      padding: 15px 0px;
+      display: block;
+      color:rgb(130, 130, 130);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+      #sidebar_archive ul li a:hover {
+        color: #000;
+        background: #0feccb;
+        border-bottom: 2px solid #10abf8; }
+    #sidebar_archive ul li.active > a {
+      background: transparent;
+      color: #fff; }
+      #sidebar_archive ul li.active > a:hover {
+        background: #0feccb;
+        border-bottom: 2px solid #10abf8; }
+  @media (max-width: 991.98px) {
+    #sidebar_archive {
+      margin-left: -250px; }
+      #sidebar_archive.active {
+        margin-left: 0; }
+      #sidebar_archive .custom-menu {
+        margin-right: -60px !important;
+        top: 10px !important; } }
+  #sidebar_archive .custom-menu {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    margin-right: -50px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; }
+    @media (prefers-reduced-motion: reduce) {
+      #sidebar_archive .custom-menu {
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none; } }
+    #sidebar_archive .custom-menu .btn.btn-primary {
+      background: transparent;
+      border-color: transparent; }
+      #sidebar_archive .custom-menu .btn.btn-primary i {
+        color: black;
+        font-size: 24px; }
+      #sidebar_archive .custom-menu .btn.btn-primary:hover, #sidebar_archive .custom-menu .btn.btn-primary:focus {
+        background: transparent !important;
+        border-color: transparent !important; }
+
+
+
+@media (max-width: 991.98px) {
+  #sidebar_archiveCollapse span {
+    display: none; } }
+
+#contentOfFileManager {
+  width: 100%;
+  padding: 0;
+  min-height: 20vh;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+
+  #sidebar_archive .scrollable-menu {
+    height: auto;
+    max-height: 750px;
+    overflow-x: hidden;
+}
+
+/****side bar - end****/
+
+
+
+/****gallery - start****/
+.gallery {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%; }
+.gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease; }
+.gallery .animation {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1); }
+
+@media (max-width: 450px) {
+  .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+  }
+}
+
+/****gallery - end****/
+
+/******button -start*****/
+#ButtonIconOfArchive{
+  padding: 20px;
+}
+#ButtonIconOfArchive button{
+  border-width: 1px;
+  margin-top: 3px;
+  text-align: center;
+}
+
+#NormalButtonOfArchive{
+  padding: 20px;
+}
+#ButtonOfArchive{
+  padding: 20px;
+}
+#ButtonOfArchive button{
+  background-color: #08494c; 
+  border-color: black;
+  border-width: 1px;
+  margin-top: 3px;
+  text-align: center;
+}
+#ButtonOfArchive button:hover{
+  background-color: #0feccb;
+}
+#ButtonOfArchive #featureName{
+  color: white;
+  text-decoration: none;
+}
+#ButtonOfArchive #featureName:hover{
+  color: black;
+  text-decoration: none;
+}
+/******button -start*****/
+
+#FileUploaderProgress .progress { position:relative; width:100%; }
+#FileUploaderProgress .bar { background-color: #0feccb; width:0%; height:20px; }
+#FileUploaderProgress .percent { position:absolute; display:inline-block; left:50%; color: #08494c;}
+
+
+
+
+/*------------------------------------------------------------------Styles of Uploader-----------------------------------------------------------*/
+
+#FileUploaderProgress .container {
+max-width: 500px;
+}
+#FileUploaderProgress dl, ol, ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+#filesPreviewDMAA img {
+padding: 8px;
+max-width: 100px;
+} 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
